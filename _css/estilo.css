@@ -1,0 +1,83 @@
+body{
+    /*verificar porque funciona no html e não funciona no css */
+    color:black;
+    background-color: #dddddd;
+}
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20 auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
+    padding: 10px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: left;
+}
+#titulo{
+    text-align: left;
+    color: red;
+}
+.centro{
+    text-align: left;
+    color: red;
+}
+
+/* Formatação de Menu */
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;    
+    top: -20px;
+    left: 480px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: rgb(67, 67, 219);
+}
+nav#menu a:hover{
+    color: #ffffff;
+    text-decoration: underline;    
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 870px;
+    top: 50px;
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+}
+header#cabecalho h1{
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 0px;
+}
